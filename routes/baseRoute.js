@@ -7,6 +7,8 @@ router.route("/allFiles").get(allDownloads);
 
 router.route("/sendEnquiry").post(enquireResponse)
 
+// router.route("/sendEnquiry").post(enquireResponse)
+
 module.exports = router;
 
 
